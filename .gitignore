@@ -1,0 +1,47 @@
+# Ambiente Virtual
+# Ignora a pasta do ambiente virtual para não enviar as bibliotecas instaladas.
+venv/
+.venv/
+
+# Arquivo de Variáveis de Ambiente
+# Ignora o arquivo que contém segredos e configurações locais.
+.env
+
+# Dados do MongoDB (se usar o volume do Docker Compose)
+mongo-data/
+
+# Cache e arquivos compilados do Python
+# Ignora as pastas de cache e outros arquivos gerados pelo interpretador.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de log
+*.log
+*.log.*
+
+# Diretórios de build e distribuição
+build/
+dist/
+*.egg-info/
+
+# Arquivos de IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+```
+__pycache__/
+*.pyc
+*.pyo
+.env
+.idea
+.cache/
+#.faiss/
+#.dockerignore
+*.bin
+*.safetensors
